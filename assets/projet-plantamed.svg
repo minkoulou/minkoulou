@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="200" viewBox="0 0 440 200">
+<defs>
+ <linearGradient id="pg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1023"/><stop offset="1" stop-color="#160b2c"/></linearGradient>
+ <linearGradient id="pe" x1="0" x2="1"><stop offset="0" stop-color="#22c55e"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+ <clipPath id="pc"><rect width="440" height="200" rx="16"/></clipPath>
+</defs>
+<style>
+.t{font:800 22px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#fff}
+.d{font:400 13.5px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#aab3e0}
+.k{font:600 11.5px 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace;fill:#22c55e}
+.bx{transform-box:fill-box;transform-origin:center}
+.in{opacity:0;animation:in .8s ease forwards} @keyframes in{from{opacity:0;transform:translateX(-12px)}to{opacity:1;transform:none}}
+.sh{animation:sh 4s ease-in-out infinite} @keyframes sh{0%{transform:translateX(-500px)}60%,100%{transform:translateX(500px)}}
+.scan{animation:scan 2.6s ease-in-out infinite} @keyframes scan{0%,100%{transform:translateY(-44px)}50%{transform:translateY(44px)}}
+.lf{animation:lf 4s ease-in-out infinite} @keyframes lf{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+.cor{animation:cor 2.6s ease-in-out infinite} @keyframes cor{0%,100%{opacity:.4}50%{opacity:1}}
+</style>
+<g clip-path="url(#pc)">
+<rect width="440" height="200" fill="url(#pg)"/>
+<rect class="sh" x="0" y="0" width="120" height="200" fill="#fff" opacity=".04" transform="skewX(-20)"/>
+<g transform="translate(320,100)"><g class="lf bx"><path d="M0 52 C-48 22 -40 -40 0 -54 C40 -40 48 22 0 52Z" fill="#22c55e" fill-opacity=".85"/><path d="M0 50 V-48 M0 -10 l-18 -14 M0 10 l18 -14 M0 28 l-14 -10" stroke="#0b1023" stroke-width="2.5" fill="none" stroke-linecap="round"/></g>
+<g class="cor" stroke="#00d4ff" stroke-width="3" fill="none"><path d="M-62 -40 v-18 h18 M62 -40 v-18 h-18 M-62 40 v18 h18 M62 40 v18 h-18"/></g>
+<g class="scan"><rect x="-64" y="-1.5" width="128" height="3" fill="#00d4ff"/><rect x="-64" y="-14" width="128" height="14" fill="#00d4ff" opacity=".15"/></g></g>
+<text class="t in" x="24" y="52">PlantaMed AI</text>
+<text class="d in" x="24" y="82" style="animation-delay:.2s">Reconnaissance de plantes</text><text class="d in" x="24" y="102" style="animation-delay:.2s">médicinales par vision IA.</text>
+<g class="in" style="animation-delay:0.40s"><rect x="24" y="152" width="52.0" height="24" rx="12" fill="#22c55e" fill-opacity=".12" stroke="#22c55e" stroke-opacity=".5"/><text class="k" x="32" y="168">React</text></g><g class="in" style="animation-delay:0.52s"><rect x="86.0" y="152" width="44.8" height="24" rx="12" fill="#22c55e" fill-opacity=".12" stroke="#22c55e" stroke-opacity=".5"/><text class="k" x="94.0" y="168">Vite</text></g><g class="in" style="animation-delay:0.64s"><rect x="140.8" y="152" width="59.2" height="24" rx="12" fill="#22c55e" fill-opacity=".12" stroke="#22c55e" stroke-opacity=".5"/><text class="k" x="148.8" y="168">Gemini</text></g>
+</g>
+<rect x=".75" y=".75" width="438.5" height="198.5" rx="16" fill="none" stroke="url(#pe)" stroke-opacity=".7" stroke-width="1.5"/>
+</svg>

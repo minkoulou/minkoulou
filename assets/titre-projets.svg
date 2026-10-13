@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="56" viewBox="0 0 900 56">
+<defs><linearGradient id="u" x1="0" x2="1"><stop offset="0" stop-color="#fbbf24"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></linearGradient></defs>
+<style>
+.h{font:800 26px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#e6ebff;letter-spacing:1px}
+.n{font:700 15px 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace;fill:#fbbf24}
+.u{stroke-dasharray:900;stroke-dashoffset:900;animation:u 1.6s .2s ease forwards} @keyframes u{to{stroke-dashoffset:0}}
+.dot{animation:dot 2.5s linear infinite} @keyframes dot{from{transform:translateX(0);opacity:1}to{transform:translateX(520px);opacity:0}}
+</style>
+<text class="n" x="4" y="32">//</text>
+<text class="h" x="32" y="34">Projets à la une</text>
+<path class="u" d="M4 50 H900" stroke="url(#u)" stroke-width="2"/>
+<circle class="dot" cx="4" cy="50" r="3.5" fill="#fbbf24"/>
+</svg>

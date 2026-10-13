@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="892" height="164" viewBox="0 0 892 164">
+<style>
+.card{opacity:0;animation:enter .7s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes enter{from{opacity:0;transform:translateY(24px) scale(.9)}to{opacity:1;transform:none}}
+.bx{transform-box:fill-box;transform-origin:center}
+.lbl{font:600 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#dbe3ff}
+.edge{animation:edge 3s ease-in-out infinite}
+@keyframes edge{0%,100%{stroke-opacity:.25}50%{stroke-opacity:.9}}
+.halo{animation:halo 3s ease-in-out infinite}
+@keyframes halo{0%,100%{opacity:.08}50%{opacity:.22}}
+.inv{filter:invert(1)}
+.build{animation:build 2.4s ease-in-out infinite} @keyframes build{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.tagL{animation:tagL 2.4s ease-in-out infinite} .tagR{animation:tagR 2.4s ease-in-out infinite}
+@keyframes tagL{0%,100%{transform:translateX(0)}50%{transform:translateX(-6px)}} @keyframes tagR{0%,100%{transform:translateX(0)}50%{transform:translateX(6px)}}
+.paint{animation:paint 4s linear infinite} @keyframes paint{0%{filter:hue-rotate(0)}100%{filter:hue-rotate(360deg)}}
+.drop{animation:drop 1.6s ease-in infinite} @keyframes drop{0%{transform:translateY(-4px);opacity:0}30%{opacity:1}100%{transform:translateY(14px);opacity:0}}
+.spark{animation:spark 3s ease-in-out infinite} @keyframes spark{0%,80%,100%{transform:rotate(0)}84%{transform:rotate(-8deg)}88%{transform:rotate(8deg)}92%{transform:rotate(-4deg)}96%{transform:rotate(4deg)}}
+.brace{animation:brace 1.2s ease-in-out infinite alternate} @keyframes brace{from{opacity:.2}to{opacity:1}}
+.typed{animation:build 3s ease-in-out infinite}
+.check{transform-box:fill-box;transform-origin:center;animation:check 3s ease-in-out infinite} @keyframes check{0%,30%{transform:scale(0)}40%{transform:scale(1.25)}45%,85%{transform:scale(1)}100%{transform:scale(0)}}
+.spin{animation:spin 7s linear infinite} @keyframes spin{to{transform:rotate(360deg)}}
+.ring{transform-box:fill-box;transform-origin:center;animation:spin 12s linear infinite reverse}
+.bolt{animation:bolt 2.2s ease-in-out infinite} @keyframes bolt{0%,70%,100%{transform:scale(1)}75%{transform:scale(1.18)}80%{transform:scale(.95)}}
+.flash{opacity:0;animation:flash 2.2s ease-in-out infinite} @keyframes flash{0%,70%,100%{opacity:0}75%{opacity:.35}}
+.wave{animation:wave 3s ease-in-out infinite} @keyframes wave{0%,100%{transform:translateX(-5px) rotate(-3deg)}50%{transform:translateX(5px) rotate(3deg)}}
+.wv{animation:wv 1.5s linear infinite} @keyframes wv{to{transform:translateX(-40px)}}
+.beat{animation:beat 1.6s ease-in-out infinite} @keyframes beat{0%,40%,100%{transform:scale(1)}10%{transform:scale(1.12)}20%{transform:scale(.98)}30%{transform:scale(1.07)}}
+.orbit{transform-box:fill-box;transform-origin:center;animation:spin 2.5s linear infinite}
+.ripple{transform-box:fill-box;transform-origin:center;animation:ripple 2s ease-out infinite} @keyframes ripple{from{transform:scale(.9);opacity:.7}to{transform:scale(1.6);opacity:0}}
+.dash{animation:dashx 1.4s ease-in-out infinite} @keyframes dashx{0%,100%{transform:translateX(0)}50%{transform:translateX(6px)}}
+.speed{animation:speed .9s linear infinite} @keyframes speed{from{transform:translateX(14px);opacity:0}30%{opacity:1}to{transform:translateX(-10px);opacity:0}}
+.stomp{animation:stomp 1.4s cubic-bezier(.5,0,.5,1) infinite} @keyframes stomp{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.shadow{transform-box:fill-box;transform-origin:center;animation:shadow 1.4s cubic-bezier(.5,0,.5,1) infinite} @keyframes shadow{0%,100%{transform:scaleX(1);opacity:.4}50%{transform:scaleX(.6);opacity:.15}}
+.swim{animation:swim 3s ease-in-out infinite} @keyframes swim{0%,100%{transform:translate(-4px,2px) rotate(-6deg)}50%{transform:translate(4px,-4px) rotate(6deg)}}
+.bub{animation:bub 2.2s ease-in infinite;opacity:0} @keyframes bub{0%{transform:translateY(0);opacity:0}20%{opacity:.9}100%{transform:translateY(-60px);opacity:0}}
+.sway{transform-origin:50% 100%;animation:sway 3s ease-in-out infinite} @keyframes sway{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+.branch{animation:build 3s ease-in-out infinite}
+.br{stroke-dasharray:120;stroke-dashoffset:120;animation:br 3s ease-in-out infinite} @keyframes br{0%{stroke-dashoffset:120}50%,85%{stroke-dashoffset:0}100%{stroke-dashoffset:-120}}
+.cm{transform-box:fill-box;transform-origin:center;animation:cmp 3s ease-in-out infinite;transform:scale(0)} @keyframes cmp{0%,30%{transform:scale(0)}45%,85%{transform:scale(1)}100%{transform:scale(0)}}
+.bob{animation:bob 2.6s ease-in-out infinite} @keyframes bob{0%,100%{transform:translateY(0) rotate(0)}25%{transform:translateY(-5px) rotate(-5deg)}75%{transform:translateY(-5px) rotate(5deg)}}
+.type{animation:build 3s ease-in-out infinite}
+.caret{animation:caret 1s steps(1) infinite} @keyframes caret{50%{opacity:0}}
+.deploy{animation:deploy 2.4s cubic-bezier(.6,0,.4,1) infinite} @keyframes deploy{0%{transform:translateY(10px);opacity:0}20%{opacity:1}60%{transform:translateY(-4px);opacity:1}80%,100%{transform:translateY(-24px);opacity:0}}
+.trail{animation:trail 2.4s linear infinite} @keyframes trail{0%,15%{opacity:0}30%,60%{opacity:.8}80%,100%{opacity:0}}
+.ping{animation:build 2s ease-in-out infinite}
+.tilt{animation:tilt 4s ease-in-out infinite} @keyframes tilt{0%,100%{transform:rotate(0) scale(1)}25%{transform:rotate(-10deg) scale(1.05)}50%{transform:rotate(0) scale(.95)}75%{transform:rotate(10deg) scale(1.05)}}
+</style>
+<clipPath id="cl0"><rect x="12" y="12" width="112" height="140" rx="16"/></clipPath>
+<g class="card bx" style="animation-delay:0.00s">
+ <rect x="12" y="12" width="112" height="140" rx="16" fill="#0d1330"/>
+ <rect x="12" y="12" width="112" height="140" rx="16" fill="#e34f26" class="halo" style="animation-delay:0.0s"/>
+ <rect x="12.5" y="12.5" width="111" height="139" rx="16" fill="none" stroke="#e34f26" class="edge" style="animation-delay:0.0s"/>
+ <g clip-path="url(#cl0)"><g transform="translate(68.0,70)">
+  <g><text class="tagL" x="-46" y="6" fill="#e34f26" font-family="monospace" font-weight="700" font-size="18">&lt;</text><text class="tagR" x="36" y="6" fill="#e34f26" font-family="monospace" font-weight="700" font-size="18">&gt;</text></g>
+  <g class="bx build"><image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSIjRTQ0RDI2IiBkPSJNMTkuMDM3IDExMy44NzZMOS4wMzIgMS42NjFoMTA5LjkzNmwtMTAuMDE2IDExMi4xOTgtNDUuMDE5IDEyLjQ4eiIvPjxwYXRoIGZpbGw9IiNGMTY1MjkiIGQ9Ik02NCAxMTYuOGwzNi4zNzgtMTAuMDg2IDguNTU5LTk1Ljg3OEg2NHoiLz48cGF0aCBmaWxsPSIjRUJFQkVCIiBkPSJNNjQgNTIuNDU1SDQ1Ljc4OEw0NC41MyAzOC4zNjFINjRWMjQuNTk5SDI5LjQ4OWwuMzMgMy42OTIgMy4zODIgMzcuOTI3SDY0em0wIDM1Ljc0M2wtLjA2MS4wMTctMTUuMzI3LTQuMTQtLjk3OS0xMC45NzVIMzMuODE2bDEuOTI4IDIxLjYwOSAyOC4xOTMgNy44MjYuMDYzLS4wMTd6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTYzLjk1MiA1Mi40NTV2MTMuNzYzaDE2Ljk0N2wtMS41OTcgMTcuODQ5LTE1LjM1IDQuMTQzdjE0LjMxOWwyOC4yMTUtNy44Mi4yMDctMi4zMjUgMy4yMzQtMzYuMjMzLjMzNS0zLjY5NmgtMy43MDh6bTAtMjcuODU2djEzLjc2MmgzMy4yNDRsLjI3Ni0zLjA5Mi42MjgtNi45NzguMzI5LTMuNjkyeiIvPjwvc3ZnPg==" x="-28.0" y="-28.0" width="56" height="56" class=""/></g>
+ </g></g>
+ <text class="lbl" x="68.0" y="134" text-anchor="middle">HTML5</text>
+</g>
+<clipPath id="cl1"><rect x="138" y="12" width="112" height="140" rx="16"/></clipPath>
+<g class="card bx" style="animation-delay:0.12s">
+ <rect x="138" y="12" width="112" height="140" rx="16" fill="#0d1330"/>
+ <rect x="138" y="12" width="112" height="140" rx="16" fill="#1572b6" class="halo" style="animation-delay:0.3s"/>
+ <rect x="138.5" y="12.5" width="111" height="139" rx="16" fill="none" stroke="#1572b6" class="edge" style="animation-delay:0.3s"/>
+ <g clip-path="url(#cl1)"><g transform="translate(194.0,70)">
+  <g><circle class="drop" cx="0" cy="30" r="3" fill="#1572b6"/></g>
+  <g class="bx paint"><image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSIjMTU3MkI2IiBkPSJNMTguODE0IDExNC4xMjNMOC43NiAxLjM1MmgxMTAuNDhsLTEwLjA2NCAxMTIuNzU0LTQ1LjI0MyAxMi41NDMtNDUuMTE5LTEyLjUyNnoiLz48cGF0aCBmaWxsPSIjMzNBOURDIiBkPSJNNjQuMDAxIDExNy4wNjJsMzYuNTU5LTEwLjEzNiA4LjYwMS05Ni4zNTRoLTQ1LjE2djEwNi40OXoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNNjQuMDAxIDUxLjQyOWgxOC4zMDJsMS4yNjQtMTQuMTYzSDY0LjAwMVYyMy40MzVoMzQuNjgybC0uMzMyIDMuNzExLTMuNCAzOC4xMTRoLTMwLjk1VjUxLjQyOXoiLz48cGF0aCBmaWxsPSIjRUJFQkVCIiBkPSJNNjQuMDgzIDg3LjM0OWwtLjA2MS4wMTgtMTUuNDAzLTQuMTU5LS45ODUtMTEuMDMxSDMzLjc1MmwxLjkzNyAyMS43MTcgMjguMzMxIDcuODYzLjA2My0uMDE4di0xNC4zOXoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNODEuMTI3IDY0LjY3NWwtMS42NjYgMTguNTIyLTE1LjQyNiA0LjE2NHYxNC4zOWwyOC4zNTQtNy44NTguMjA4LTIuMzM3IDIuNDA2LTI2Ljg4MUg4MS4xMjd6Ii8+PHBhdGggZmlsbD0iI0VCRUJFQiIgZD0iTTY0LjA0OCAyMy40MzV2MTMuODMxSDMwLjY0bC0uMjc3LTMuMTA4LS42My03LjAxMi0uMzMxLTMuNzExaDM0LjY0NnptLS4wNDcgMjcuOTk2djEzLjgzMUg0OC43OTJsLS4yNzctMy4xMDgtLjYzMS03LjAxMi0uMzMtMy43MTFoMTYuNDQ3eiIvPjwvc3ZnPg==" x="-28.0" y="-28.0" width="56" height="56" class=""/></g>
+ </g></g>
+ <text class="lbl" x="194.0" y="134" text-anchor="middle">CSS3</text>
+</g>
+<clipPath id="cl2"><rect x="264" y="12" width="112" height="140" rx="16"/></clipPath>
+<g class="card bx" style="animation-delay:0.24s">
+ <rect x="264" y="12" width="112" height="140" rx="16" fill="#0d1330"/>
+ <rect x="264" y="12" width="112" height="140" rx="16" fill="#f7df1e" class="halo" style="animation-delay:0.6s"/>
+ <rect x="264.5" y="12.5" width="111" height="139" rx="16" fill="none" stroke="#f7df1e" class="edge" style="animation-delay:0.6s"/>
+ <g clip-path="url(#cl2)"><g transform="translate(320.0,70)">
+  <g><text class="brace" x="-48" y="7" fill="#f7df1e" font-family="monospace" font-weight="700" font-size="20">{</text><text class="brace" x="38" y="7" fill="#f7df1e" font-family="monospace" font-weight="700" font-size="20" style="animation-delay:.6s">}</text></g>
+  <g class="bx spark"><image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSIjRjBEQjRGIiBkPSJNMS40MDggMS40MDhoMTI1LjE4NHYxMjUuMTg1SDEuNDA4eiIvPjxwYXRoIGZpbGw9IiMzMjMzMzAiIGQ9Ik0xMTYuMzQ3IDk2LjczNmMtLjkxNy01LjcxMS00LjY0MS0xMC41MDgtMTUuNjcyLTE0Ljk4MS0zLjgzMi0xLjc2MS04LjEwNC0zLjAyMi05LjM3Ny01LjkyNi0uNDUyLTEuNjktLjUxMi0yLjY0Mi0uMjI2LTMuNjY1LjgyMS0zLjMyIDQuNzg0LTQuMzU1IDcuOTI1LTMuNDAzIDIuMDIzLjY3OCAzLjkzOCAyLjIzNyA1LjA5MyA0LjcyNCA1LjQwMi0zLjQ5OCA1LjM5MS0zLjQ3NSA5LjE2My01Ljg3OS0xLjM4MS0yLjE0MS0yLjExOC0zLjEyOS0zLjAyMi00LjA0NS0zLjI0OS0zLjYyOS03LjY3Ni01LjQ5OC0xNC43NTYtNS4zNTVsLTMuNjg4LjQ3N2MtMy41MzQuODkzLTYuOTAyIDIuNzQ4LTguODc3IDUuMjM1LTUuOTI2IDYuNzI0LTQuMjM2IDE4LjQ5MiAyLjk3NSAyMy4zMzUgNy4xMDQgNS4zMzIgMTcuNTQgNi41NDUgMTguODczIDExLjUzMSAxLjI5NyA2LjEwNC00LjQ4NiA4LjA4LTEwLjIzNCA3LjM3OC00LjIzNi0uODgxLTYuNTkyLTMuMDM0LTkuMTM5LTYuOTQ5LTQuNjg4IDIuNzEzLTQuNjg4IDIuNzEzLTkuNTA4IDUuNDg1IDEuMTQzIDIuNDk5IDIuMzQ0IDMuNjMgNC4yNiA1Ljc5NSA5LjA2OCA5LjE5OCAzMS43NiA4Ljc0NiAzNS44My01LjE3Ni4xNjUtLjQ3OCAxLjI2MS0zLjY2Ni4zOC04LjU4MXpNNjkuNDYyIDU4Ljk0M0g1Ny43NTNsLS4wNDggMzAuMjcyYzAgNi40MzguMzMzIDEyLjM0LS43MTQgMTQuMTQ5LTEuNzEzIDMuNTU4LTYuMTUyIDMuMTE3LTguMTc1IDIuNDI3LTIuMDU5LTEuMDEyLTMuMTA2LTIuNDUxLTQuMzE5LTQuNDg1LS4zMzMtLjU4NC0uNTgzLTEuMDM2LS42NjctMS4wNzFsLTkuNTIgNS44M2MxLjU4MyAzLjI0OSAzLjkxNSA2LjA2OSA2LjkwMiA3LjkwMSA0LjQ2MiAyLjY3OCAxMC40NTkgMy40OTkgMTYuNzMxIDIuMDU5IDQuMDgyLTEuMTg5IDcuNjA0LTMuNjUyIDkuNDQ4LTcuNDAxIDIuNjY2LTQuOTE1IDIuMDk0LTEwLjg2NCAyLjA3LTE3LjQ0NC4wNi0xMC43MzUuMDAxLTIxLjQ2OC4wMDEtMzIuMjM3eiIvPjwvc3ZnPg==" x="-28.0" y="-28.0" width="56" height="56" class=""/></g>
+ </g></g>
+ <text class="lbl" x="320.0" y="134" text-anchor="middle">JavaScript</text>
+</g>
+<clipPath id="cl3"><rect x="390" y="12" width="112" height="140" rx="16"/></clipPath>
+<g class="card bx" style="animation-delay:0.36s">
+ <rect x="390" y="12" width="112" height="140" rx="16" fill="#0d1330"/>
+ <rect x="390" y="12" width="112" height="140" rx="16" fill="#3178c6" class="halo" style="animation-delay:0.9s"/>
+ <rect x="390.5" y="12.5" width="111" height="139" rx="16" fill="none" stroke="#3178c6" class="edge" style="animation-delay:0.9s"/>
+ <g clip-path="url(#cl3)"><g transform="translate(446.0,70)">
+  <g><g class="check"><circle cx="30" cy="-28" r="9" fill="#22c55e"/><path d="M25.5 -28 l3 3 l6 -6" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round"/></g></g>
+  <g class="bx typed"><image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjIuNjcgNDdoOTkuNjd2NzMuNjdIMjIuNjd6Ii8+PHBhdGggZGF0YS1uYW1lPSJvcmlnaW5hbCIgZmlsbD0iIzAwN2FjYyIgZD0iTTEuNSA2My45MXY2Mi41aDEyNXYtMTI1SDEuNXptMTAwLjczLTVhMTUuNTYgMTUuNTYgMCAwMTcuODIgNC41IDIwLjU4IDIwLjU4IDAgMDEzIDRjMCAuMTYtNS40IDMuODEtOC42OSA1Ljg1LS4xMi4wOC0uNi0uNDQtMS4xMy0xLjIzYTcuMDkgNy4wOSAwIDAwLTUuODctMy41M2MtMy43OS0uMjYtNi4yMyAxLjczLTYuMjEgNWE0LjU4IDQuNTggMCAwMC41NCAyLjM0Yy44MyAxLjczIDIuMzggMi43NiA3LjI0IDQuODYgOC45NSAzLjg1IDEyLjc4IDYuMzkgMTUuMTYgMTAgMi42NiA0IDMuMjUgMTAuNDYgMS40NSAxNS4yNC0yIDUuMi02LjkgOC43My0xMy44MyA5LjlhMzguMzIgMzguMzIgMCAwMS05LjUyLS4xIDIzIDIzIDAgMDEtMTIuNzItNi42M2MtMS4xNS0xLjI3LTMuMzktNC41OC0zLjI1LTQuODJhOS4zNCA5LjM0IDAgMDExLjE1LS43M0w4MiAxMDFsMy41OS0yLjA4Ljc1IDEuMTFhMTYuNzggMTYuNzggMCAwMDQuNzQgNC41NGM0IDIuMSA5LjQ2IDEuODEgMTIuMTYtLjYyYTUuNDMgNS40MyAwIDAwLjY5LTYuOTJjLTEtMS4zOS0zLTIuNTYtOC41OS01LTYuNDUtMi43OC05LjIzLTQuNS0xMS43Ny03LjI0YTE2LjQ4IDE2LjQ4IDAgMDEtMy40My02LjI1IDI1IDI1IDAgMDEtLjIyLThjMS4zMy02LjIzIDYtMTAuNTggMTIuODItMTEuODdhMzEuNjYgMzEuNjYgMCAwMTkuNDkuMjZ6bS0yOS4zNCA1LjI0djUuMTJINTYuNjZ2NDYuMjNINDUuMTVWNjkuMjZIMjguODh2LTVhNDkuMTkgNDkuMTkgMCAwMS4xMi01LjE3QzI5LjA4IDU5IDM5IDU5IDUxIDU5aDIxLjgzeiIvPjwvc3ZnPg==" x="-28.0" y="-28.0" width="56" height="56" class=""/></g>
+ </g></g>
+ <text class="lbl" x="446.0" y="134" text-anchor="middle">TypeScript</text>
+</g>
+<clipPath id="cl4"><rect x="516" y="12" width="112" height="140" rx="16"/></clipPath>
+<g class="card bx" style="animation-delay:0.48s">
+ <rect x="516" y="12" width="112" height="140" rx="16" fill="#0d1330"/>
+ <rect x="516" y="12" width="112" height="140" rx="16" fill="#61dafb" class="halo" style="animation-delay:1.2s"/>
+ <rect x="516.5" y="12.5" width="111" height="139" rx="16" fill="none" stroke="#61dafb" class="edge" style="animation-delay:1.2s"/>
+ <g clip-path="url(#cl4)"><g transform="translate(572.0,70)">
+  <g><circle r="38" fill="none" stroke="#61dafb" stroke-opacity=".25" stroke-dasharray="3 6" class="ring"/></g>
+  <g class="bx spin"><image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48ZyBmaWxsPSIjNjFEQUZCIj48Y2lyY2xlIGN4PSI2NCIgY3k9IjY0IiByPSIxMS40Ii8+PHBhdGggZD0iTTEwNy4zIDQ1LjJjLTIuMi0uOC00LjUtMS42LTYuOS0yLjMuNi0yLjQgMS4xLTQuOCAxLjUtNy4xIDIuMS0xMy4yLS4yLTIyLjUtNi42LTI2LjEtMS45LTEuMS00LTEuNi02LjQtMS42LTcgMC0xNS45IDUuMi0yNC45IDEzLjktOS04LjctMTcuOS0xMy45LTI0LjktMTMuOS0yLjQgMC00LjUuNS02LjQgMS42LTYuNCAzLjctOC43IDEzLTYuNiAyNi4xLjQgMi4zLjkgNC43IDEuNSA3LjEtMi40LjctNC43IDEuNC02LjkgMi4zQzguMiA1MCAxLjQgNTYuNiAxLjQgNjRzNi45IDE0IDE5LjMgMTguOGMyLjIuOCA0LjUgMS42IDYuOSAyLjMtLjYgMi40LTEuMSA0LjgtMS41IDcuMS0yLjEgMTMuMi4yIDIyLjUgNi42IDI2LjEgMS45IDEuMSA0IDEuNiA2LjQgMS42IDcuMSAwIDE2LTUuMiAyNC45LTEzLjkgOSA4LjcgMTcuOSAxMy45IDI0LjkgMTMuOSAyLjQgMCA0LjUtLjUgNi40LTEuNiA2LjQtMy43IDguNy0xMyA2LjYtMjYuMS0uNC0yLjMtLjktNC43LTEuNS03LjEgMi40LS43IDQuNy0xLjQgNi45LTIuMyAxMi41LTQuOCAxOS4zLTExLjQgMTkuMy0xOC44cy02LjgtMTQtMTkuMy0xOC44ek05Mi41IDE0LjdjNC4xIDIuNCA1LjUgOS44IDMuOCAyMC4zLS4zIDIuMS0uOCA0LjMtMS40IDYuNi01LjItMS4yLTEwLjctMi0xNi41LTIuNS0zLjQtNC44LTYuOS05LjEtMTAuNC0xMyA3LjQtNy4zIDE0LjktMTIuMyAyMS0xMi4zIDEuMyAwIDIuNS4zIDMuNS45ek04MS4zIDc0Yy0xLjggMy4yLTMuOSA2LjQtNi4xIDkuNi0zLjcuMy03LjQuNC0xMS4yLjQtMy45IDAtNy42LS4xLTExLjItLjQtMi4yLTMuMi00LjItNi40LTYtOS42LTEuOS0zLjMtMy43LTYuNy01LjMtMTAgMS42LTMuMyAzLjQtNi43IDUuMy0xMCAxLjgtMy4yIDMuOS02LjQgNi4xLTkuNiAzLjctLjMgNy40LS40IDExLjItLjQgMy45IDAgNy42LjEgMTEuMi40IDIuMiAzLjIgNC4yIDYuNCA2IDkuNiAxLjkgMy4zIDMuNyA2LjcgNS4zIDEwLTEuNyAzLjMtMy40IDYuNi01LjMgMTB6bTguMy0zLjNjMS41IDMuNSAyLjcgNi45IDMuOCAxMC4zLTMuNC44LTcgMS40LTEwLjggMS45IDEuMi0xLjkgMi41LTMuOSAzLjYtNiAxLjItMi4xIDIuMy00LjIgMy40LTYuMnpNNjQgOTcuOGMtMi40LTIuNi00LjctNS40LTYuOS04LjMgMi4zLjEgNC42LjIgNi45LjIgMi4zIDAgNC42LS4xIDYuOS0uMi0yLjIgMi45LTQuNSA1LjctNi45IDguM3ptLTE4LjYtMTVjLTMuOC0uNS03LjQtMS4xLTEwLjgtMS45IDEuMS0zLjMgMi4zLTYuOCAzLjgtMTAuMyAxLjEgMiAyLjIgNC4xIDMuNCA2LjEgMS4yIDIuMiAyLjQgNC4xIDMuNiA2LjF6bS03LTI1LjVjLTEuNS0zLjUtMi43LTYuOS0zLjgtMTAuMyAzLjQtLjggNy0xLjQgMTAuOC0xLjktMS4yIDEuOS0yLjUgMy45LTMuNiA2LTEuMiAyLjEtMi4zIDQuMi0zLjQgNi4yek02NCAzMC4yYzIuNCAyLjYgNC43IDUuNCA2LjkgOC4zLTIuMy0uMS00LjYtLjItNi45LS4yLTIuMyAwLTQuNi4xLTYuOS4yIDIuMi0yLjkgNC41LTUuNyA2LjktOC4zem0yMi4yIDIxbC0zLjYtNmMzLjguNSA3LjQgMS4xIDEwLjggMS45LTEuMSAzLjMtMi4zIDYuOC0zLjggMTAuMy0xLjEtMi4xLTIuMi00LjItMy40LTYuMnpNMzEuNyAzNWMtMS43LTEwLjUtLjMtMTcuOSAzLjgtMjAuMyAxLS42IDIuMi0uOSAzLjUtLjkgNiAwIDEzLjUgNC45IDIxIDEyLjMtMy41IDMuOC03IDguMi0xMC40IDEzLTUuOC41LTExLjMgMS40LTE2LjUgMi41LS42LTIuMy0xLTQuNS0xLjQtNi42ek03IDY0YzAtNC43IDUuNy05LjcgMTUuNy0xMy40IDItLjggNC4yLTEuNSA2LjQtMi4xIDEuNiA1IDMuNiAxMC4zIDYgMTUuNi0yLjQgNS4zLTQuNSAxMC41LTYgMTUuNUMxNS4zIDc1LjYgNyA2OS42IDcgNjR6bTI4LjUgNDkuM2MtNC4xLTIuNC01LjUtOS44LTMuOC0yMC4zLjMtMi4xLjgtNC4zIDEuNC02LjYgNS4yIDEuMiAxMC43IDIgMTYuNSAyLjUgMy40IDQuOCA2LjkgOS4xIDEwLjQgMTMtNy40IDcuMy0xNC45IDEyLjMtMjEgMTIuMy0xLjMgMC0yLjUtLjMtMy41LS45ek05Ni4zIDkzYzEuNyAxMC41LjMgMTcuOS0zLjggMjAuMy0xIC42LTIuMi45LTMuNS45LTYgMC0xMy41LTQuOS0yMS0xMi4zIDMuNS0zLjggNy04LjIgMTAuNC0xMyA1LjgtLjUgMTEuMy0xLjQgMTYuNS0yLjUuNiAyLjMgMSA0LjUgMS40IDYuNnptOS0xNS42Yy0yIC44LTQuMiAxLjUtNi40IDIuMS0xLjYtNS0zLjYtMTAuMy02LTE1LjYgMi40LTUuMyA0LjUtMTAuNSA2LTE1LjUgMTMuOCA0IDIyLjEgMTAgMjIuMSAxNS42IDAgNC43LTUuOCA5LjctMTUuNyAxMy40eiIvPjwvZz48L3N2Zz4=" x="-28.0" y="-28.0" width="56" height="56" class=""/></g>
+ </g></g>
+ <text class="lbl" x="572.0" y="134" text-anchor="middle">React</text>
+</g>
+<clipPath id="cl5"><rect x="642" y="12" width="112" height="140" rx="16"/></clipPath>
+<g class="card bx" style="animation-delay:0.60s">
+ <rect x="642" y="12" width="112" height="140" rx="16" fill="#0d1330"/>
+ <rect x="642" y="12" width="112" height="140" rx="16" fill="#bd34fe" class="halo" style="animation-delay:1.5s"/>
+ <rect x="642.5" y="12.5" width="111" height="139" rx="16" fill="none" stroke="#bd34fe" class="edge" style="animation-delay:1.5s"/>
+ <g clip-path="url(#cl5)"><g transform="translate(698.0,70)">
+  <g><circle r="34" fill="#bd34fe" class="flash"/></g>
+  <g class="bx bolt"><image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgxPSI2IiB4Mj0iMjM1IiB5MT0iMzMiIHkyPSIzNDQiIGdyYWRpZW50VHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAuOTM3KSBzY2FsZSguMzEyMikiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM0MWQxZmYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNiZDM0ZmUiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iYiIgeDE9IjE5NC42NTEiIHgyPSIyMzYuMDc2IiB5MT0iOC44MTgiIHkyPSIyOTIuOTg5IiBncmFkaWVudFRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLjkzNykgc2NhbGUoLjMxMjIpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmZlYTgzIi8+PHN0b3Agb2Zmc2V0PSIuMDgzIiBzdG9wLWNvbG9yPSIjZmZkZDM1Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmZhODAwIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHBhdGggZmlsbD0idXJsKCNhKSIgZD0iTTEyNC43NjYgMTkuNTIgNjcuMzI0IDEyMi4yMzhjLTEuMTg3IDIuMTIxLTQuMjM0IDIuMTMzLTUuNDM3LjAyNEwzLjMwNSAxOS41MzJjLTEuMzEzLTIuMzAyLjY1Mi01LjA4NyAzLjI2MS00LjYyMkw2NC4wNyAyNS4xODdhMy4wOSAzLjA5IDAgMCAwIDEuMTEgMGw1Ni4zLTEwLjI2MWMyLjU5OC0uNDczIDQuNTc1IDIuMjg5IDMuMjg2IDQuNTk0Wm0wIDAiLz48cGF0aCBmaWxsPSJ1cmwoI2IpIiBkPSJNOTEuNDYgMS40MyA0OC45NTQgOS43NThhMS41NiAxLjU2IDAgMCAwLTEuMjU4IDEuNDM3bC0yLjYxNyA0NC4xNjhhMS41NjMgMS41NjMgMCAwIDAgMS45MSAxLjYxNGwxMS44MzYtMi43MzVhMS41NjIgMS41NjIgMCAwIDEgMS44OCAxLjgzNmwtMy41MTcgMTcuMjE5YTEuNTYyIDEuNTYyIDAgMCAwIDEuOTg1IDEuODA1bDcuMzA4LTIuMjIzYzEuMTMzLS4zNDQgMi4yMjMuNjUyIDEuOTg1IDEuODEybC01LjU5IDI3LjA0N2MtLjM0OCAxLjY5MiAxLjkwMiAyLjYxNCAyLjg0IDEuMTY0bC42MjUtLjk2OCAzNC42NC02OS4xM2MuNTgyLTEuMTYtLjQyMS0yLjQ4LTEuNjktMi4yMzRsLTEyLjE4NSAyLjM1MmExLjU1OCAxLjU1OCAwIDAgMS0xLjc5My0xLjk2NWw3Ljk1LTI3LjU2MkExLjU2IDEuNTYgMCAwIDAgOTEuNDYgMS40M1ptMCAwIi8+PC9zdmc+Cg==" x="-28.0" y="-28.0" width="56" height="56" class=""/></g>
+ </g></g>
+ <text class="lbl" x="698.0" y="134" text-anchor="middle">Vite</text>
+</g>
+<clipPath id="cl6"><rect x="768" y="12" width="112" height="140" rx="16"/></clipPath>
+<g class="card bx" style="animation-delay:0.72s">
+ <rect x="768" y="12" width="112" height="140" rx="16" fill="#0d1330"/>
+ <rect x="768" y="12" width="112" height="140" rx="16" fill="#38bdf8" class="halo" style="animation-delay:1.8s"/>
+ <rect x="768.5" y="12.5" width="111" height="139" rx="16" fill="none" stroke="#38bdf8" class="edge" style="animation-delay:1.8s"/>
+ <g clip-path="url(#cl6)"><g transform="translate(824.0,70)">
+  <g><path class="wv" d="M-60 38 q10 -8 20 0 t20 0 t20 0 t20 0 t20 0 t20 0" stroke="#38bdf8" stroke-width="2.5" fill="none" stroke-linecap="round" opacity=".7"/></g>
+  <g class="bx wave"><image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBkPSJNNjQuMDA0IDI1LjYwMmMtMTcuMDY3IDAtMjcuNzMgOC41My0zMiAyNS41OTcgNi4zOTgtOC41MzEgMTMuODY3LTExLjczIDIyLjM5OC05LjU5NyA0Ljg3MSAxLjIxNCA4LjM1MiA0Ljc0NiAxMi4yMDcgOC42NkM3Mi44ODMgNTYuNjI5IDgwLjE0NSA2NCA5Ni4wMDQgNjRjMTcuMDY2IDAgMjcuNzMtOC41MzEgMzItMjUuNjAyLTYuMzk5IDguNTM2LTEzLjg2NyAxMS43MzUtMjIuMzk5IDkuNjAyLTQuODctMS4yMTUtOC4zNDctNC43NDYtMTIuMjA3LTguNjYtNi4yNy02LjM2Ny0xMy41My0xMy43MzgtMjkuMzk0LTEzLjczOHpNMzIuMDA0IDY0Yy0xNy4wNjYgMC0yNy43MyA4LjUzMS0zMiAyNS42MDJDNi40MDIgODEuMDY2IDEzLjg3IDc3Ljg2NyAyMi40MDIgODBjNC44NzEgMS4yMTUgOC4zNTIgNC43NDYgMTIuMjA3IDguNjYgNi4yNzQgNi4zNjcgMTMuNTM2IDEzLjczOCAyOS4zOTUgMTMuNzM4IDE3LjA2NiAwIDI3LjczLTguNTMgMzItMjUuNTk3LTYuMzk5IDguNTMxLTEzLjg2NyAxMS43My0yMi4zOTkgOS41OTctNC44Ny0xLjIxNC04LjM0Ny00Ljc0Ni0xMi4yMDctOC42NkM1NS4xMjggNzEuMzcxIDQ3Ljg2OCA2NCAzMi4wMDQgNjR6bTAgMCIgZmlsbD0iIzM4YmRmOCIvPjwvc3ZnPgo=" x="-28.0" y="-28.0" width="56" height="56" class=""/></g>
+ </g></g>
+ <text class="lbl" x="824.0" y="134" text-anchor="middle">Tailwind</text>
+</g>
+</svg>
