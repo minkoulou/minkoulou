@@ -15,7 +15,9 @@
 </p>
 
 <p align="center">
-  <img src="assets/competences.svg" width="100%" alt="HTML5, CSS3, JavaScript, React, Vite, Tailwind, Node.js, Express, Prisma, MySQL, MongoDB, Git, GitHub, VS Code, Vercel, Figma" />
+  <img src="assets/skills-frontend.svg" width="640" alt="Front-end : HTML5, CSS3, JavaScript, prisma, React, Vite, Tailwind" /><br/>
+  <img src="assets/skills-backend.svg" width="640" alt="Back-end : Node.js, Express, MySQL, MongoDB" /><br/>
+  <img src="assets/skills-outils.svg" width="640" alt="Outils : Git, GitHub, VS Code, Vercel, Figma" />
 </p>
 
 <p align="center">
@@ -23,38 +25,20 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-mebusco.svg" width="46%" alt="Mebusco SARL" /></a> &nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-bmphub.svg" width="46%" alt="BMPHUB" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/minkoulou/freshcast"><img src="assets/projet-freshcast.svg" width="46%" alt="FreshCast" /></a> &nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-ecoimpact.svg" width="46%" alt="EcoImpact AI" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-songo.svg" width="46%" alt="Songo" /></a> &nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-cacao.svg" width="46%" alt="Coopérative de cacao" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-portfolio-client.svg" width="46%" alt="Portfolio professionnel" /></a> &nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/minkoulou/plantamed-ai"><img src="assets/projet-plantamed.svg" width="46%" alt="PlantaMed AI" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/minkoulou/controle-seo"><img src="assets/projet-seo.svg" width="46%" alt="Contrôle SEO" /></a> &nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/minkoulou/api-blog"><img src="assets/projet-api-blog.svg" width="46%" alt="API de blog" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-meteo.svg" width="46%" alt="METEO 237" /></a> &nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-stats.svg" width="46%" alt="Analyse statistique" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-examens.svg" width="46%" alt="Planning d'examens" /></a> &nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-lms.svg" width="46%" alt="Plateforme LMS" /></a>
+  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-mebusco.svg" width="32%" alt="Mebusco SARL" /></a>
+  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-bmphub.svg" width="32%" alt="BMPHUB" /></a>
+  <a href="https://github.com/minkoulou/freshcast"><img src="assets/projet-freshcast.svg" width="32%" alt="FreshCast" /></a>
+  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-ecoimpact.svg" width="32%" alt="EcoImpact AI" /></a>
+  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-songo.svg" width="32%" alt="Songo" /></a>
+  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-cacao.svg" width="32%" alt="Coopérative de cacao" /></a>
+  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-portfolio-client.svg" width="32%" alt="Portfolio professionnel" /></a>
+  <a href="https://github.com/minkoulou/plantamed-ai"><img src="assets/projet-plantamed.svg" width="32%" alt="PlantaMed AI" /></a>
+  <a href="https://github.com/minkoulou/controle-seo"><img src="assets/projet-seo.svg" width="32%" alt="Contrôle SEO" /></a>
+  <a href="https://github.com/minkoulou/api-blog"><img src="assets/projet-api-blog.svg" width="32%" alt="API de blog" /></a>
+  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-meteo.svg" width="32%" alt="METEO 237" /></a>
+  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-stats.svg" width="32%" alt="Analyse statistique" /></a>
+  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-examens.svg" width="32%" alt="Planning d'examens" /></a>
+  <a href="https://github.com/minkoulou?tab=repositories"><img src="assets/projet-lms.svg" width="32%" alt="Plateforme LMS" /></a>
 </p>
 
 <p align="center">
@@ -83,7 +67,7 @@
 
 <p align="center">
   <a href="mailto:minkouloubenoit431@gmail.com"><img src="https://img.shields.io/badge/Email-0b1023?style=for-the-badge&logo=gmail&logoColor=00d4ff" /></a>
-  <a href="https://www.linkedin.com/in/benoit-pascal-minkoulou-minkoulou-768b0643a"><img src="https://img.shields.io/badge/LinkedIn-0b1023?style=for-the-badge&logo=linkedin&logoColor=00d4ff" /></a>
+  <a href="https://www.linkedin.com/in/benoit-pascal-minkoulou-minkoulou-768b0643a?utm_source=share_via&utm_content=profile&utm_medium=member_android"><img src="https://img.shields.io/badge/LinkedIn-0b1023?style=for-the-badge&logo=linkedin&logoColor=00d4ff" /></a>
   <a href="https://wa.me/237687118330"><img src="https://img.shields.io/badge/WhatsApp-0b1023?style=for-the-badge&logo=whatsapp&logoColor=a855f7" /></a>
 </p>
 
