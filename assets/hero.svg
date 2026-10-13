@@ -21,8 +21,7 @@
 @keyframes drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(160px,30px)}}
 @keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(-180px,-20px)}}
 .hi{font:500 20px 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace;fill:#00d4ff;letter-spacing:2px;opacity:0;animation:fade 1s .2s forwards}
-.name-s{font:900 104px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;letter-spacing:14px;fill:none;stroke:url(#txt);stroke-width:1.6;stroke-dasharray:900;stroke-dashoffset:900;animation:draw 2.4s .4s ease forwards}
-.name-f{font:900 104px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;letter-spacing:14px;fill:url(#txt);opacity:0;animation:fade 1.2s 2.3s forwards}
+.name{font:900 104px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;letter-spacing:14px;fill:url(#txt)}
 @keyframes draw{to{stroke-dashoffset:0}}
 @keyframes fade{to{opacity:1}}
 .sub{font:600 22px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#cbd5ff;transform-box:fill-box;transform-origin:center}
@@ -169,8 +168,13 @@
 
 <text class="hi" x="500" y="62" text-anchor="middle">&gt; Hello World, je suis</text>
 <g filter="url(#glow)">
-<text class="name-s" x="507" y="160" text-anchor="middle">BENOIT</text>
-<text class="name-f" x="507" y="160" text-anchor="middle">BENOIT</text>
+<text class="name" x="277" y="160" opacity="0">B<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0500;0.8417" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+<text class="name" x="360.9" y="160" opacity="0">E<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0833;0.8167" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+<text class="name" x="437.9" y="160" opacity="0">N<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1167;0.7917" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+<text class="name" x="530.5" y="160" opacity="0">O<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1500;0.7667" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+<text class="name" x="626.7" y="160" opacity="0">I<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1833;0.7417" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+<text class="name" x="673.5" y="160" opacity="0">T<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2167;0.7167" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+<rect x="0" y="80" width="6" height="92" rx="2" fill="#00d4ff"><animate attributeName="x" values="263;353;430;522;619;665;743;665;619;522;430;353;263" keyTimes="0.0000;0.0500;0.0833;0.1167;0.1500;0.1833;0.2167;0.7167;0.7417;0.7667;0.7917;0.8167;0.8417" calcMode="discrete" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="0.8s" calcMode="discrete" repeatCount="indefinite"/></rect>
 </g>
 <g class="subwrap"><text class="sub s0" x="500" y="222" text-anchor="middle">Développeur Web Full-Stack</text>
 <text class="sub s1" x="500" y="222" text-anchor="middle">React · Node.js · Express</text>

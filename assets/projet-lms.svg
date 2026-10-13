@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="170" viewBox="0 0 360 170">
+<defs>
+ <linearGradient id="pg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1023"/><stop offset="1" stop-color="#160b2c"/></linearGradient>
+ <linearGradient id="pe" x1="0" x2="1"><stop offset="0" stop-color="#00d4ff"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+ <clipPath id="pc"><rect width="360" height="170" rx="14"/></clipPath>
+</defs>
+<style>
+.t{font:800 19px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#fff}
+.c{font:700 10px 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace;fill:#00d4ff;letter-spacing:1.5px}
+.d{font:400 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#aab3e0}
+.k{font:600 11px 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace;fill:#00d4ff}
+.m{font:800 17px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#0b1023}
+.in{opacity:0;animation:in .8s ease forwards} @keyframes in{from{opacity:0;transform:translateX(-12px)}to{opacity:1;transform:none}}
+.sh{animation:sh 4s ease-in-out infinite} @keyframes sh{0%{transform:translateX(-420px)}60%,100%{transform:translateX(420px)}}
+.rg{transform-box:fill-box;transform-origin:center;animation:rg 2.8s ease-in-out infinite} @keyframes rg{0%,100%{transform:scale(1);opacity:.25}50%{transform:scale(1.18);opacity:.7}}
+.sp{transform-box:fill-box;transform-origin:center;animation:sp 9s linear infinite} @keyframes sp{to{transform:rotate(360deg)}}
+</style>
+<g clip-path="url(#pc)">
+<rect width="360" height="170" fill="url(#pg)"/>
+<rect class="sh" x="0" y="0" width="100" height="170" fill="#fff" opacity=".04" transform="skewX(-20)"/>
+<g transform="translate(312,48)">
+ <circle class="rg" r="30" fill="none" stroke="#00d4ff" stroke-width="2"/>
+ <circle class="sp" r="24" fill="none" stroke="#ec4899" stroke-width="2" stroke-dasharray="10 8"/>
+ <circle r="19" fill="url(#pe)"/>
+ <text class="m" y="6" text-anchor="middle">LM</text>
+</g>
+<text class="c in" x="20" y="30">UNIVERSITÉ</text>
+<text class="t in" x="20" y="56" style="animation-delay:.1s">Plateforme LMS</text>
+<text class="d in" x="20" y="84" style="animation-delay:.2s">Tableaux de bord enseignant,</text><text class="d in" x="20" y="103" style="animation-delay:.2s">étudiant et promoteur.</text>
+<g class="in" style="animation-delay:0.35s"><rect x="20.0" y="130" width="44.4" height="22" rx="11" fill="#00d4ff" fill-opacity=".12" stroke="#00d4ff" stroke-opacity=".5"/><text class="k" x="28.0" y="145">HTML</text></g><g class="in" style="animation-delay:0.47s"><rect x="72.4" y="130" width="37.3" height="22" rx="11" fill="#00d4ff" fill-opacity=".12" stroke="#00d4ff" stroke-opacity=".5"/><text class="k" x="80.4" y="145">CSS</text></g><g class="in" style="animation-delay:0.59s"><rect x="117.7" y="130" width="87.0" height="22" rx="11" fill="#00d4ff" fill-opacity=".12" stroke="#00d4ff" stroke-opacity=".5"/><text class="k" x="125.7" y="145">JavaScript</text></g>
+</g>
+<rect x=".75" y=".75" width="358.5" height="168.5" rx="14" fill="none" stroke="url(#pe)" stroke-opacity=".7" stroke-width="1.5"/>
+</svg>
