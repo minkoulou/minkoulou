@@ -67,6 +67,7 @@
 
 <p align="center">
   <a href="mailto:minkouloubenoit431@gmail.com"><img src="https://img.shields.io/badge/Email-0b1023?style=for-the-badge&logo=gmail&logoColor=00d4ff" /></a>
+  <a href="https://www.linkedin.com/in/benoit-pascal-minkoulou-minkoulou-768b0643a?utm_source=share_via&utm_content=profile&utm_medium=member_android"><img src="https://img.shields.io/badge/LinkedIn-0b1023?style=for-the-badge&logo=linkedin&logoColor=00d4ff" /></a>
   <a href="https://wa.me/237687118330"><img src="https://img.shields.io/badge/WhatsApp-0b1023?style=for-the-badge&logo=whatsapp&logoColor=a855f7" /></a>
 </p>
 
