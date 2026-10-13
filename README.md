@@ -15,9 +15,9 @@
 </p>
 
 <p align="center">
-  <img src="assets/skills-frontend.svg" alt="Front-end : HTML5, CSS3, JavaScript, TypeScript, React, Vite, Tailwind" /><br/>
-  <img src="assets/skills-backend.svg" alt="Back-end : Node.js, Express, PHP, MySQL, MongoDB" /><br/>
-  <img src="assets/skills-outils.svg" alt="Outils : Git, GitHub, VS Code, Vercel, Netlify, Figma" />
+  <img src="assets/skills-frontend.svg" alt="Front-end : HTML5, CSS3, JavaScript, prisma, React, Vite, Tailwind" /><br/>
+  <img src="assets/skills-backend.svg" alt="Back-end : Node.js, Express, MySQL, MongoDB" /><br/>
+  <img src="assets/skills-outils.svg" alt="Outils : Git, GitHub, VS Code, Vercel, Figma" />
 </p>
 
 <p align="center">
@@ -25,10 +25,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/TON_USERNAME/plantamed-ai"><img src="assets/projet-plantamed.svg" width="49%" alt="PlantaMed AI" /></a>
-  <a href="https://github.com/TON_USERNAME/controle-seo"><img src="assets/projet-seo.svg" width="49%" alt="Contrôle SEO" /></a>
-  <a href="https://github.com/TON_USERNAME/freshcast"><img src="assets/projet-freshcast.svg" width="49%" alt="FreshCast" /></a>
-  <a href="https://github.com/TON_USERNAME/api-blog"><img src="assets/projet-api-blog.svg" width="49%" alt="API Blog" /></a>
+  <a href="https://github.com/minkoulou/plantamed-ai"><img src="assets/projet-plantamed.svg" width="49%" alt="PlantaMed AI" /></a>
+  <a href="https://github.com/minkoulou/controle-seo"><img src="assets/projet-seo.svg" width="49%" alt="Contrôle SEO" /></a>
+  <a href="https://github.com/minkoulou/freshcast"><img src="assets/projet-freshcast.svg" width="49%" alt="FreshCast" /></a>
+  <a href="https://github.com/minkoulou/api-blog"><img src="assets/projet-api-blog.svg" width="49%" alt="API Blog" /></a>
 </p>
 
 <p align="center">
