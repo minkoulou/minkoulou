@@ -66,9 +66,9 @@
 </p>
 
 <p align="center">
-  <a href="mailto:ton.email@exemple.com"><img src="https://img.shields.io/badge/Email-0b1023?style=for-the-badge&logo=gmail&logoColor=00d4ff" /></a>
+  <a href="mailto:minkouloubenoit431@gmail.com"><img src="https://img.shields.io/badge/Email-0b1023?style=for-the-badge&logo=gmail&logoColor=00d4ff" /></a>
   <a href="https://linkedin.com/in/ton-profil"><img src="https://img.shields.io/badge/LinkedIn-0b1023?style=for-the-badge&logo=linkedin&logoColor=00d4ff" /></a>
-  <a href="https://wa.me/237XXXXXXXXX"><img src="https://img.shields.io/badge/WhatsApp-0b1023?style=for-the-badge&logo=whatsapp&logoColor=a855f7" /></a>
+  <a href="https://wa.me/237687118330"><img src="https://img.shields.io/badge/WhatsApp-0b1023?style=for-the-badge&logo=whatsapp&logoColor=a855f7" /></a>
   <a href="https://ton-portfolio.com"><img src="https://img.shields.io/badge/Portfolio-0b1023?style=for-the-badge&logo=vercel&logoColor=a855f7" /></a>
 </p>
 
